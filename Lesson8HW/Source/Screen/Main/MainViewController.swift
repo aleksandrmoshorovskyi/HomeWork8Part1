@@ -13,3 +13,8 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
     }
 }
+
+protocol PrinterProtocol: AnyObject {
+    
+    func textToPrint() -> String
+}
